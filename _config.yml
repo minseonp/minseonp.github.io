@@ -3,17 +3,17 @@ url: "https://minseonp.github.io/minseonp.github.io/" # the base hostname & prot
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+#permalink: pretty
 plugins:
   - jekyll-sitemap
 
 # Pages Path
 
-#defaults:
-#  - scope:
-#      path: '_pages'
-#    values:
-#      permalink: /:basename:output_ext
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
 
 include:
   - _pages
